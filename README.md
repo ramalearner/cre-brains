@@ -7,6 +7,7 @@
 5. Open VS code and open ReactJSLab folder
 6. Remove node_modules dir and package-lock.json
 7. Open a new terminal from VS code and cd to ReachJSLab
-8. npm install
-9. npm start
-10. Node JS Web server will be restarted
+8. npx create-react-app my-react-app (starts a new ReactJS project)
+9. npm install
+10. npm start
+11. Node JS Web server will be restarted
