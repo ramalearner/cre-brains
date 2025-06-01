@@ -1,0 +1,23 @@
+---
+config:
+  theme: forest
+  look: classic
+  layout: dagre
+  ref: https://www.mermaidchart.com/app/projects/ce3f2583-14e9-4714-8c9d-a0c33ce2ef55/diagrams/6ff433c8-8ebb-40c7-9f24-17f4e29f984c/version/v0.1/edit
+---
+flowchart TD
+    A(["Property Identification"]) --> B["Smart LOI"]
+    B --> C["Offer Negotiations"]
+    C --> D["In Contract"]
+    B --> E["Lender Pre-Approval"]
+    D --> F["Due Diligence"]
+    F --> G["Pre-Closing Preparation"]
+    G --> H["Closing Day/D-Day"]
+    H --> I["Property Management"]
+    E --> J["Lender Underwriting"]
+    J --> K["Lender Financing Approval"]
+    K --> G
+    A --> L["Legal Team Hiring"]
+    L --> M["Legal Team Due Diligence"]
+    M --> N["Legal Time Green Signal"]
+    N --> G
